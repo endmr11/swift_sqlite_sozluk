@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAEB06A2282ACCD7008201D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06A1282ACCD7008201D2 /* AppDelegate.swift */; };
+		DAEB06A4282ACCD7008201D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06A3282ACCD7008201D2 /* SceneDelegate.swift */; };
+		DAEB06A6282ACCD7008201D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06A5282ACCD7008201D2 /* ViewController.swift */; };
+		DAEB06A9282ACCD7008201D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEB06A7282ACCD7008201D2 /* Main.storyboard */; };
+		DAEB06AB282ACCD9008201D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEB06AA282ACCD9008201D2 /* Assets.xcassets */; };
+		DAEB06AE282ACCD9008201D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEB06AC282ACCD9008201D2 /* LaunchScreen.storyboard */; };
+		DAEB06B6282ACCE5008201D2 /* sozluk.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DAEB06B5282ACCE5008201D2 /* sozluk.sqlite */; };
+		DAEB06C3282ACCF0008201D2 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06B8282ACCF0008201D2 /* FMDatabasePool.m */; };
+		DAEB06C4282ACCF0008201D2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06BD282ACCF0008201D2 /* FMResultSet.m */; };
+		DAEB06C5282ACCF0008201D2 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06BE282ACCF0008201D2 /* FMDatabaseQueue.m */; };
+		DAEB06C6282ACCF0008201D2 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06BF282ACCF0008201D2 /* FMDatabaseAdditions.m */; };
+		DAEB06C7282ACCF0008201D2 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06C2282ACCF0008201D2 /* FMDatabase.m */; };
+		DAEB06CB282ACF4D008201D2 /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06CA282ACF4D008201D2 /* DetayViewController.swift */; };
+		DAEB06CD282ACFD9008201D2 /* KelimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06CC282ACFD9008201D2 /* KelimeTableViewCell.swift */; };
+		DAEB06D1282AD271008201D2 /* Kelimelerdao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06D0282AD271008201D2 /* Kelimelerdao.swift */; };
+		DAEB06D3282AD60C008201D2 /* Kelimeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB06D2282AD60C008201D2 /* Kelimeler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAEB069E282ACCD7008201D2 /* udemy_sqlsozluk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udemy_sqlsozluk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEB06A1282ACCD7008201D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAEB06A3282ACCD7008201D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAEB06A5282ACCD7008201D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAEB06A8282ACCD7008201D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAEB06AA282ACCD9008201D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAEB06AD282ACCD9008201D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAEB06AF282ACCD9008201D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEB06B5282ACCE5008201D2 /* sozluk.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sozluk.sqlite; sourceTree = "<group>"; };
+		DAEB06B7282ACCEF008201D2 /* udemy_sqlsozluk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "udemy_sqlsozluk-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAEB06B8282ACCF0008201D2 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DAEB06B9282ACCF0008201D2 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DAEB06BA282ACCF0008201D2 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DAEB06BB282ACCF0008201D2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DAEB06BC282ACCF0008201D2 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DAEB06BD282ACCF0008201D2 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DAEB06BE282ACCF0008201D2 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DAEB06BF282ACCF0008201D2 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DAEB06C0282ACCF0008201D2 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DAEB06C1282ACCF0008201D2 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DAEB06C2282ACCF0008201D2 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DAEB06C9282ACD08008201D2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DAEB06CA282ACF4D008201D2 /* DetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
+		DAEB06CC282ACFD9008201D2 /* KelimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeTableViewCell.swift; sourceTree = "<group>"; };
+		DAEB06D0282AD271008201D2 /* Kelimelerdao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimelerdao.swift; sourceTree = "<group>"; };
+		DAEB06D2282AD60C008201D2 /* Kelimeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimeler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAEB069B282ACCD7008201D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAEB0695282ACCD7008201D2 = {
+			isa = PBXGroup;
+			children = (
+				DAEB06A0282ACCD7008201D2 /* udemy_sqlsozluk */,
+				DAEB069F282ACCD7008201D2 /* Products */,
+				DAEB06C8282ACD08008201D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAEB069F282ACCD7008201D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB069E282ACCD7008201D2 /* udemy_sqlsozluk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAEB06A0282ACCD7008201D2 /* udemy_sqlsozluk */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB06B5282ACCE5008201D2 /* sozluk.sqlite */,
+				DAEB06A1282ACCD7008201D2 /* AppDelegate.swift */,
+				DAEB06A3282ACCD7008201D2 /* SceneDelegate.swift */,
+				DAEB06A5282ACCD7008201D2 /* ViewController.swift */,
+				DAEB06CA282ACF4D008201D2 /* DetayViewController.swift */,
+				DAEB06CC282ACFD9008201D2 /* KelimeTableViewCell.swift */,
+				DAEB06A7282ACCD7008201D2 /* Main.storyboard */,
+				DAEB06AA282ACCD9008201D2 /* Assets.xcassets */,
+				DAEB06AC282ACCD9008201D2 /* LaunchScreen.storyboard */,
+				DAEB06AF282ACCD9008201D2 /* Info.plist */,
+				DAEB06B9282ACCF0008201D2 /* FMDatabase.h */,
+				DAEB06C2282ACCF0008201D2 /* FMDatabase.m */,
+				DAEB06BB282ACCF0008201D2 /* FMDatabaseAdditions.h */,
+				DAEB06BF282ACCF0008201D2 /* FMDatabaseAdditions.m */,
+				DAEB06C1282ACCF0008201D2 /* FMDatabasePool.h */,
+				DAEB06B8282ACCF0008201D2 /* FMDatabasePool.m */,
+				DAEB06BA282ACCF0008201D2 /* FMDatabaseQueue.h */,
+				DAEB06BE282ACCF0008201D2 /* FMDatabaseQueue.m */,
+				DAEB06BC282ACCF0008201D2 /* FMDB.h */,
+				DAEB06C0282ACCF0008201D2 /* FMResultSet.h */,
+				DAEB06BD282ACCF0008201D2 /* FMResultSet.m */,
+				DAEB06B7282ACCEF008201D2 /* udemy_sqlsozluk-Bridging-Header.h */,
+				DAEB06D0282AD271008201D2 /* Kelimelerdao.swift */,
+				DAEB06D2282AD60C008201D2 /* Kelimeler.swift */,
+			);
+			path = udemy_sqlsozluk;
+			sourceTree = "<group>";
+		};
+		DAEB06C8282ACD08008201D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB06C9282ACD08008201D2 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAEB069D282ACCD7008201D2 /* udemy_sqlsozluk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEB06B2282ACCD9008201D2 /* Build configuration list for PBXNativeTarget "udemy_sqlsozluk" */;
+			buildPhases = (
+				DAEB069A282ACCD7008201D2 /* Sources */,
+				DAEB069B282ACCD7008201D2 /* Frameworks */,
+				DAEB069C282ACCD7008201D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = udemy_sqlsozluk;
+			productName = udemy_sqlsozluk;
+			productReference = DAEB069E282ACCD7008201D2 /* udemy_sqlsozluk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAEB0696282ACCD7008201D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DAEB069D282ACCD7008201D2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = DAEB0699282ACCD7008201D2 /* Build configuration list for PBXProject "udemy_sqlsozluk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAEB0695282ACCD7008201D2;
+			productRefGroup = DAEB069F282ACCD7008201D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAEB069D282ACCD7008201D2 /* udemy_sqlsozluk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAEB069C282ACCD7008201D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEB06AE282ACCD9008201D2 /* LaunchScreen.storyboard in Resources */,
+				DAEB06B6282ACCE5008201D2 /* sozluk.sqlite in Resources */,
+				DAEB06AB282ACCD9008201D2 /* Assets.xcassets in Resources */,
+				DAEB06A9282ACCD7008201D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAEB069A282ACCD7008201D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEB06D3282AD60C008201D2 /* Kelimeler.swift in Sources */,
+				DAEB06CD282ACFD9008201D2 /* KelimeTableViewCell.swift in Sources */,
+				DAEB06A6282ACCD7008201D2 /* ViewController.swift in Sources */,
+				DAEB06C3282ACCF0008201D2 /* FMDatabasePool.m in Sources */,
+				DAEB06A2282ACCD7008201D2 /* AppDelegate.swift in Sources */,
+				DAEB06A4282ACCD7008201D2 /* SceneDelegate.swift in Sources */,
+				DAEB06C4282ACCF0008201D2 /* FMResultSet.m in Sources */,
+				DAEB06C6282ACCF0008201D2 /* FMDatabaseAdditions.m in Sources */,
+				DAEB06C5282ACCF0008201D2 /* FMDatabaseQueue.m in Sources */,
+				DAEB06CB282ACF4D008201D2 /* DetayViewController.swift in Sources */,
+				DAEB06C7282ACCF0008201D2 /* FMDatabase.m in Sources */,
+				DAEB06D1282AD271008201D2 /* Kelimelerdao.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAEB06A7282ACCD7008201D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEB06A8282ACCD7008201D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAEB06AC282ACCD9008201D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEB06AD282ACCD9008201D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAEB06B0282ACCD9008201D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAEB06B1282ACCD9008201D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAEB06B3282ACCD9008201D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFMP7MNJM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = udemy_sqlsozluk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erenveudemy.udemy-sqlsozluk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "udemy_sqlsozluk/udemy_sqlsozluk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAEB06B4282ACCD9008201D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFMP7MNJM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = udemy_sqlsozluk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erenveudemy.udemy-sqlsozluk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "udemy_sqlsozluk/udemy_sqlsozluk-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAEB0699282ACCD7008201D2 /* Build configuration list for PBXProject "udemy_sqlsozluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEB06B0282ACCD9008201D2 /* Debug */,
+				DAEB06B1282ACCD9008201D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEB06B2282ACCD9008201D2 /* Build configuration list for PBXNativeTarget "udemy_sqlsozluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEB06B3282ACCD9008201D2 /* Debug */,
+				DAEB06B4282ACCD9008201D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAEB0696282ACCD7008201D2 /* Project object */;
+}
